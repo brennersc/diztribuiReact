@@ -1,0 +1,29 @@
+
+.listaEtapas {
+  background-color: #e5dbdb ;
+  a {
+    color: #757575;
+    &:hover {
+      color:  white ;
+      text-decoration: none;
+    }
+  }
+}
+.texto-questionario{
+  font-size: 0.875rem;
+}
+.listaEtapasAtivo {
+  background-color: #6e6e6e  ;
+  a {
+    color: white;
+    &:hover {
+      color:  white ;
+      text-decoration: none;
+    }
+  }
+}
+
+.enunciado{
+  background-color: #f7f7f7;
+  padding: 10px;
+}
